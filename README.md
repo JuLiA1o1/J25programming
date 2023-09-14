@@ -1,3 +1,4 @@
 # J25programming
 repository 1st BATXILLERATO
-## TEACHER REPOSITORY
+## teacher repository
+https://github.com/d-prieto/J25-Programming
