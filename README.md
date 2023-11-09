@@ -1,6 +1,8 @@
 # J25programming
 repository 1st BATXILLERATO
 
+[programming notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg)
+
 [d-prieto: teacher repository](https://github.com/d-prieto/J25-Programming)
 
 
