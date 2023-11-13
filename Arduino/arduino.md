@@ -27,10 +27,24 @@
 
 ---
 ## Functional programming 5 ##
+```C++
+void loop() {
+  // put your main code here, to run repeatedly:
+  morseJ();  // Print Morse code for the letter J
+  morseU();  // Print Morse code for the letter U
+  morseL();  // Print Morse code for the letter L
+  morseI();  // Print Morse code for the letter I
+  morseA();  // Print Morse code for the letter A
+
+  Serial.println();  // Print a newline character to separate Morse code for different letters
+  delay(1000);  // Introduce a 1-second delay before the loop repeats
+```
+  
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_5.ino)
 
 ---
 ## Special message ##
+
 This special message firstly was with the line it's shown above
 
 **Serial.println("special message its gonna to get started in a few seconds");**
