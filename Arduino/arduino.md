@@ -3,6 +3,33 @@
 
 
 ## Blink variation 1 ##
+
+**setup() function:**
+```C++
+void setup() {
+pinMode(LED_BUILTIN, OUTPUT);   // This line sets the built-in LED pin (LED_BUILTIN) as an output pin.
+digitalWrite(13, 1);            // This turns on the LED by setting the voltage of pin 13 (or LED_BUILTIN) to HIGH.
+delay(2000);                    // The program then waits for 2 seconds using the delay() function.
+digitalWrite(13, 0);            // This turns off the LED by setting the voltage of pin 13 to LOW.
+delay(1000);                    // Another delay of 1 second is added.
+}
+```
+The purpose of the setup is to initialize the LED pin, turn it on for 2 seconds and turn it off for 1 second, and after go to the following step which is the loop()
+
+**loop() function:**
+This function since it's a loop it runs continuously
+
+```C++
+void loop() {
+digitalWrite(13, 1);     // This turns on the LED by setting the voltage of pin 13 to HIGH.
+delay(500);             // The program then waits for 0.5 seconds.
+digitalWrite(13, 0);   // This turns off the LED by setting the voltage of pin 13 to LOW.
+delay(500);           // Another delay of 0.5 seconds is added.
+}
+```
+
+This part of the code creates a simple blinking effect, with the LED turning on for 0.5 seconds and then turning off for another 0.5 seconds, resulting in a 1-second cycle. The loop continues to repeat, creating a continuous on-off blinking pattern for the LED.
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/Blink-variation-01.ino)
 
 ---
