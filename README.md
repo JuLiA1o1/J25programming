@@ -4,8 +4,8 @@ repository 1st BATXILLERATO
 
 
 ### Arduino
-[explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/arduino.md)
-[files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino)
+- [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino)
+- [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/arduino.md)
 
 ### Programming
 [notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
