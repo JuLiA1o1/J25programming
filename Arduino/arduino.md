@@ -34,14 +34,228 @@ This part of the code creates a simple blinking effect, with the LED turning on 
 
 ---
 ## Blink variation 2 ##
+
+**setup() function:**
+This function since is **setup()** it's only repeated once.
+
+```C++
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(13, OUTPUT);
+  digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(1500);           // wait for 1.5 seconds
+  digitalWrite(13, 0);  // turn the LED off by making the voltage LOW
+  delay(1000);           // wait for 1 second
+  digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(500);            // wait for 0.5 seconds
+  digitalWrite(13, 0);  // turn the LED off by making the voltage LOW
+  delay(1000);           // wait for 1 second
+```
+
+Light on during 1,5 seconds
+
+Light off during 1 second
+
+Light on during half second
+
+Light off during 1 second
+
+And after this process, followed it's the **loop() function**
+
+**loop() function:**
+This function since it's a loop it runs continuously
+
+```C++
+void loop() {
+  digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(125);           // wait for 0.125 seconds
+  digitalWrite(13, 0);  // turn the LED off by making the voltage LOW
+  delay(125);           // wait for 0.125 seconds
+}
+```
+This process will follow the following pathern;
+
+Light on during 0.125 second
+
+Light off during 0.125 second
+
+In summary, the code initializes the LED with a specific flashing pattern during the setup and then enters a loop where the LED continuously blinks with a faster on-off pattern.
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/Blink-variatiom-02.ino)
 
 ---
 ## Codigo Morse ##
+
+This program will writte morse code which it's bassed on a secret code represented with dots and dashes
+
+**Morse Code Sequences:**
+
+The loop() function contains sequences of digitalWrite and delay commands to represent Morse code for the letters J, U, L, I, and A using the built-in LED.
+
+Each letter's Morse code is represented by turning the LED on and off with specific durations. For example, the sequence for the letter J is represented by "dot, dash, dash, dash," and the sequence for the letter U is represented by "dot, dot, dash." Similar sequences are repeated for other letters.
+
+The delay(dotDuration *5) represents a space between words, with a longer delay of 5 times the dot duration.
+
+```C++
+int dotDuration = 500;       // Duration of a dot in milliseconds
+
+// dot = dotDuration
+// dash = dotDuration*3
+// end of word = dotDuration*5
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(LED_BUILTIN, OUTPUT);              // Set the built-in LED pin as an output
+}
+
+void loop() {
+  // J
+  digitalWrite(13, 1);
+  delay(dotDuration);  // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration);  // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration);   // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration);  // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration*3);  // light off (rest) with a duration of a dash because it's the end of one letter so the gap between letters = light off during 1500 milliseconds
+
+// U
+  digitalWrite(13, 1);
+  delay(dotDuration); // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration); // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration*3); // light off (rest) with a duration of a dash because it's the end of one letter so the gap between letters = light off during 1500 milliseconds
+
+// L
+  digitalWrite(13, 1);
+  delay(dotDuration);  // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration);   // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration);   // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration*3); // light off (rest) with a duration of a dash because it's the end of one letter so the gap between letters = light off during 1500 milliseconds
+
+// I
+  digitalWrite(13, 1);
+  delay(dotDuration);   // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration); // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration);   // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration*3); // light off (rest) with a duration of a dash because it's the end of one letter so the gap between letters = light off during 1500 milliseconds
+
+ // A
+  digitalWrite(13, 1);
+  delay(dotDuration);   // dot produced = light on during 500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration);  // light off (rest) with a duration of a dot = light off during 500 milliseconds
+  digitalWrite(13, 1);
+  delay(dotDuration*3); // dash produced = light on during 1500 milliseconds
+  digitalWrite(13, 0);
+  delay(dotDuration*5); // light off with a duration of 5 dots because it's the end of the word so the final gap = light off during 2500 milliseconds
+
+// space
+
+}
+```
+In summary, this code demonstrates a simple Morse code display using the built-in LED on an Arduino, with the option to customize the duration of a dot by adjusting the dotDuration variable.
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/Codigo_morse.ino)
 
 ---
 ## Functional programming 1 ##
+
+As a diference between the probram before it's that this one is more simplify so it ocupates a smaller space
+What it changed it's than instead of doing each dot and dash with the rests of each, we just did a **void** with morseDot that define what's about and another one with morseDash that saying (light is on during 3 dotDuration and off during a dotDuration) which afterwards each time we needed a dot or a dash instead of plogging every specific therm we can type it as a more general thing such as **morseDash** and **morseDot**
+
+```C++
+int dotDuration = 500;  // Duration of a dot in milliseconds
+
+void setup() {
+  pinMode(13, OUTPUT);  // Set pin 13 (usually the built-in LED) as an output
+}
+
+void loop() {
+  // Morse code for J
+  morseDot(); // which is the same as saying: digitalWrite(13, 1); delay(dotDuration); digitalWrite(13, 0); delay(dotDuration);
+  morseDash();  // which is the same as saying: digitalWrite(13, 1); delay(dotDuration * 3); digitalWrite(13, 0); delay(dotDuration);
+  morseDash();
+  morseDash();
+  delay(dotDuration * 2);  // Gap between letters
+
+  // Morse code for U
+  morseDot();
+  morseDot();
+  morseDash();
+  delay(dotDuration * 2);  // Gap between letters
+
+  // Morse code for L
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  delay(dotDuration * 2);  // Gap between letters
+
+  // Morse code for I
+  morseDot();
+  morseDot();
+  delay(dotDuration * 2);  // Gap between letters
+
+  // Morse code for A
+  morseDot();
+  morseDash();
+  delay(dotDuration * 6);  // Gap between words
+}
+```
+**Helper Functions (morseDot() and morseDash()):**
+
+These functions simplify the code by handling the LED on-off sequences for dots and dashes, respectively.
+
+**morseDot()** turns the LED on for the duration of a dot, then turns it off, creating a dot in Morse code.
+
+**morseDash()** turns the LED on for a duration three times longer than a dot (representing a dash), then turns it off.
+
+```C++
+void morseDot() { // void allows us once we define what's about to use it and minimiseze the programming code, it sumarise it instead of repeating it each time 
+  digitalWrite(13, 1);  // LED on (dot)
+  delay(dotDuration);
+  digitalWrite(13, 0);  // LED off
+  delay(dotDuration);
+}
+
+void morseDash() {
+  digitalWrite(13, 1);  // LED on (dash)
+  delay(dotDuration * 3);
+  digitalWrite(13, 0);  // LED off
+  delay(dotDuration);
+}
+```
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_1.ino)
 
 ---
