@@ -190,7 +190,7 @@ In summary, this code demonstrates a simple Morse code display using the built-i
 ---
 ## Functional programming 1 ##
 
-As a diference between the probram before it's that this one is more simplify so it ocupates a smaller space
+As a diference between the program before it's that this one is more simplify so it ocupates a smaller space
 What it changed it's than instead of doing each dot and dash with the rests of each, we just did a **void** with morseDot that define what's about and another one with morseDash that saying (light is on during 3 dotDuration and off during a dotDuration) which afterwards each time we needed a dot or a dash instead of plogging every specific therm we can type it as a more general thing such as **morseDash** and **morseDot**
 
 ```C++
@@ -260,10 +260,100 @@ void morseDash() {
 
 ---
 ## Functional programming 2 ##
+
+As a diference to **functional programming 1** it's that this one is even more simplify so it ocupates a smaller space
+What it changed it's than instead of doing each letter and dots and dashes inside loop, it's in another void. So as we did on the one before writting morseDot and MorseDash in a separate void out of loop but now substracting also the letters to separates voild outside the loop function.
+
+So instead of haveing the specifications of how many dots and dashes have the letter inside the loop, now there's only the letters, so on the loop there's only the morse code word
+
+```C++
+int dotDuration = 500;  // Duration of a dot in milliseconds
+
+void setup() {
+  pinMode(13, OUTPUT);  // Set pin 13 (usually the built-in LED) as an output
+}
+
+void loop() {
+  morseJ();  // Represent the letter J in Morse code
+  morseU();  // Represent the letter U in Morse code
+  morseL();  // Represent the letter L in Morse code
+  morseI();  // Represent the letter I in Morse code
+  morseA();  // Represent the letter A in Morse code
+  
+  delay(dotDuration * 4);  // Gap between words
+}
+
+// Function to represent Morse code for the letter J
+void morseJ() {
+  morseDot();
+  morseDash();
+  morseDash();
+  morseDash();
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter U
+void morseU() {
+  morseDot();
+  morseDot();
+  morseDash();
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter L
+void morseL() {
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter I
+void morseI() {
+  morseDot();
+  morseDot();
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter A
+void morseA() {
+  morseDot();
+  morseDash();
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent a dot in Morse code
+void morseDot() {
+  digitalWrite(13, 1);  // LED on (dot)
+  delay(dotDuration);
+  digitalWrite(13, 0);  // LED off
+  delay(dotDuration);
+}
+
+// Function to represent a dash in Morse code
+void morseDash() {
+  digitalWrite(13, 1);  // LED on (dash)
+  delay(dotDuration * 3);
+  digitalWrite(13, 0);  // LED off
+  delay(dotDuration);
+}
+```
+**loop function** calls individual functions (morseJ(), morseU(), morseL(), morseI(), and morseA()) to represent the Morse code for the letters J, U, L, I, and A. Each function includes a specific sequence of dots and dashes for the corresponding letter.
+
+Each letter's Morse code is followed by a delay(dotDuration * 2) to introduce a gap between letters.
+
+The delay(dotDuration * 4) at the end of the loop introduces a longer delay between words.
+
+Helper functions morseDot() and morseDash() handle the LED on-off sequences for dots and dashes, respectively.
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_2.ino)
 
 ---
 ## Functional programming 3 ##
+
+
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_3.ino)
 
 ---
