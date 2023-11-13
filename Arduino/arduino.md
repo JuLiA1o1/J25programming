@@ -32,10 +32,14 @@
 ---
 ## Special message ##
 This special message firstly was with the line it's shown above
+
 **Serial.println("special message its gonna to get started in a few seconds");**
+
 but the arduino memory was full as the arduino said;
+
 **Not enough memory; see https://support.arduino.cc/hc/en-us/articles/360013825179 for tips on reducing your footprint.
 Error during build: data section exceeds available space in board**
+
 So I decided to deleated and even the space was 97% used as it wasn't full, it worked
 
 ### EXPLANATION
