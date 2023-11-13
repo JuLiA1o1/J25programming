@@ -36,7 +36,6 @@ void setup() {
   Serial.begin(9600);  // Initialize serial communication with a baud rate of 9600
 }
 ```
-
 **loop() function**; is the main loop that runs repeatedly on the Arduino. It calls functions to print Morse code for the letters J, U, L, I, and A. After printing the Morse code for each letter, it adds a newline character to separate Morse code representations and introduces a 1-second delay before the loop repeats.
 
 ```C++
@@ -51,7 +50,6 @@ void loop() {
   Serial.println();  // Print a newline character to separate Morse code for different letters
   delay(1000);  // Introduce a 1-second delay before the loop repeats
 ```
-
 **Separate functions**; (morseJ(), morseU(), morseL(), morseI(), and morseA()) are defined for each letter to make the code modular and readable.
 **Example**; morseJ() prints the Morse code for the letter J, which is "dot dash dash dash."
 
@@ -79,8 +77,8 @@ void morseDash() {
   Serial.print("_");
 }
 ```
-When you run this code, it will continuously print the Morse code representations of the letters J, U, L, I, and A to the serial monitor, with each letter separated by a newline character and a 1-second delay between repetitions.
 
+When you run this code, it will continuously print the Morse code representations of the letters J, U, L, I, and A to the serial monitor, with each letter separated by a newline character and a 1-second delay between repetitions.
 
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_5.ino)
 
