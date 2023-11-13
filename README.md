@@ -1,15 +1,13 @@
 # J25programming
 repository 1st BATXILLERATO
+![the creation](https://www.algomasquearte.es/2436/miguel-angel-creaccion-adan-detalle-manos.jpg)
+
 
 ### Arduino
 [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/arduino.md)
 
 ### Programming
 [notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg)
-
-
-![the creation](https://www.algomasquearte.es/2436/miguel-angel-creaccion-adan-detalle-manos.jpg)
-
 
 ### 👥 teacher repository
 - [d-prieto](https://github.com/d-prieto/J25-Programming)
