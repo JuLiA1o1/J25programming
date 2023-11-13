@@ -27,6 +27,8 @@
 
 ---
 ## Functional programming 5 ##
+
+**The loop()** function is the main loop that runs repeatedly on the Arduino. It calls functions to print Morse code for the letters J, U, L, I, and A. After printing the Morse code for each letter, it adds a newline character to separate Morse code representations and introduces a 1-second delay before the loop repeats.
 ```C++
 void loop() {
   // put your main code here, to run repeatedly:
