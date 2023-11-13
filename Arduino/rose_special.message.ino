@@ -5,7 +5,7 @@ Serial.begin (9600);
 
 void loop() {
   // put your main code here, to run repeatedly:
-Serial.println("special message its gonna to get started in a few seconds");
+//Serial.println("special message its gonna to get started in a few seconds");
 Serial.println("              ...:::::::...        ...:::::::...");
 Serial.println("           .:::::::::::::::::. .::::::::::::::::::.");
 Serial.println("        .::::::::::::::::::::::::::::::::::::::::::::.");
