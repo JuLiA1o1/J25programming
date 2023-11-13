@@ -5,16 +5,18 @@ repository 1st BATXILLERATO
 
 [programming notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg)
 
-[d-prieto: teacher repository](https://github.com/d-prieto/J25-Programming)
-
 
 ![the creation](https://www.algomasquearte.es/2436/miguel-angel-creaccion-adan-detalle-manos.jpg)
 
-### 👥 List of Classmates
-[AlbertRenart](https://github.com/albertrenart/J25-programming)
-[SpaikyJordi](https://github.com/Spaikyjordi/J25-programming-jordi)
-[ahong2006](https://github.com/ahong2006/J25-PROGRAMMING)
-[lizardMestre689](https://github.com/lizardMestre689/J25-programming)
-[QuimMontane](https://github.com/QuimMontane/J25-programmig-Quim)
-[axckzz](https://github.com/axckzz/J25-Progamming#j25-progamming)
-[LuyiLin06](https://github.com/LuyiLin06/J25-programming)
+
+### 👥 teacher repository
+- [d-prieto](https://github.com/d-prieto/J25-Programming)
+
+### 👥 Classmates repository
+- [AlbertRenart](https://github.com/albertrenart/J25-programming)
+- [SpaikyJordi](https://github.com/Spaikyjordi/J25-programming-jordi)
+- [ahong2006](https://github.com/ahong2006/J25-PROGRAMMING)
+- [lizardMestre689](https://github.com/lizardMestre689/J25-programming)
+- [QuimMontane](https://github.com/QuimMontane/J25-programmig-Quim)
+- [axckzz](https://github.com/axckzz/J25-Progamming#j25-progamming)
+- [LuyiLin06](https://github.com/LuyiLin06/J25-programming)
