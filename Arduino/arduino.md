@@ -451,7 +451,7 @@ void morseBlink(int numberofdots) {
 ```
 
 
-In this version, morseBlink is a versatile function that takes the number of dots as the main thing, allowing it to represent both dots and dashes. The loop function then calls this function for each letter, creating the Morse code with appropriate gaps. This modification makes the code more easier to understand.
+In this version, morseBlink takes the number of dots as the main thing, allowing it to represent both dots and dashes. The loop function then calls this function for each letter, creating the Morse code with appropriate gaps. This modification makes the code more easier to understand.
 
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_3.ino)
 
