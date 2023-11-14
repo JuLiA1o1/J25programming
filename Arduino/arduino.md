@@ -637,10 +637,167 @@ void decide(String input) { // decide which input it's going to work
 
 ---
 ## Cooking system 3 COULANT ##
+simulation of a cooking process for making a dessert called coulant. Defined with global variables for the quantities of ingredients (eggs, flour, chocolate) and a boolean variable for oil
+
+These variables represent the ingredients and the quantities needed for making the coulant.
+```C++
+int eggs = 4;
+int flour = 4;
+bool oil = true;
+double chocolate = 1;
+```
+
+**setup() function**; initializes serial
+```C++
+void setup() {
+  Serial.begin(9600);
+}
+```
+
+**loop() function**; continuously reads input, and then calls the **decide() function** based on the input.
+```C++
+void loop() {
+  String input = Serial.readString();
+  if (input != "") {
+    input.trim();
+    decide(input);
+  }
+}
+```
+**cook() function**; simulates the cooking process. It checks if there are enough ingredients to make the coulant. If there's everything, it prints cooking messages, updates ingredient quantities, and checks if there are enough ingredients for future coulants.
+```C++
+void cook() {
+  Serial.println("We are cooking");
+  delay(500);
+  if (eggs >= 2 && flour >= 2 && chocolate >= 0.5 && oil) { // if there's 1 egg, more or 2 flour, more or 1/2 chocolate and oil...
+    Serial.println("Cooking...");
+    delay(1000);
+    Serial.println("Cooking...");
+    delay(1000);
+    Serial.println("Cooking...");
+    delay(1000);
+    Serial.println("Here you have a coulant!");
+    eggs -= 2;
+    flour -= 2;
+    chocolate -= 0.5;
+
+    if (eggs < 2) { // if there's less than 2 eggs
+      Serial.println("You need eggs"); // You need eggs
+    }
+    if (flour < 2) { // if there's less than 2 flour
+      Serial.println("You need flour"); // You need flour
+    }
+    if (chocolate < 0.5) { // if there's less than half chocolate
+      Serial.println("You need chocolate"); // You need chocolate
+    }
+  }
+}
+```
+**decide() function**; takes the input and decides whether to call the **cook() function** or increment the corresponding ingredient based on the input.
+```C++
+void decide(String input) {
+  if (input == "cook") {
+    cook();
+  }
+
+  if (input == "flour") {
+    flour++;
+  }
+
+  if (input == "chocolate") {
+    chocolate++;
+  }
+
+  if (input == "eggs") {
+    eggs++;
+  }
+}
+```
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/coulant.ino)
 
 ---
 ## Cooking system 4 ##
+ simulation of a pizza cooking process. With some variables for the quantities of ingredients (masaPizza, queso, jamonDulce, oil, and tomate). It work's by the process of  reading input from the serial port and making decisions based on the input.
+
+These variables represent the quantities of ingredients needed for making a pizza.
+```C++
+int masaPizza = 0;
+int queso = 0;
+int jamonDulce = 1;
+bool oil = true;
+double tomate = 0.5;
+```
+
+**setup() function**; initializes serial
+```C++
+void setup() {
+  Serial.begin(9600);
+}
+```
+**loop() function**; continuously reads input from the serial port, prints it to the serial monitor, and then calls the **decide() function** based on the input.
+```C++
+void loop() {
+  String input = Serial.readString();
+  if (input != "") {
+    Serial.println();
+    Serial.print("Has escrito: ");
+    Serial.println(input);
+    input.trim();
+    decide(input);
+  }
+}
+```
+**decide() function**; takes the input and decides if call **cook() function** or increment the corresponding ingredient based on the input.
+```C++
+void decide(String input) {
+  Serial.println("We are deciding");
+  if (input == "cook") {
+    cook();
+  }
+  if (input == "masaPizza") {
+    masaPizza++;
+  }
+  if (input == "queso") {
+    queso++;
+  }
+  if (input == "jamonDulce") {
+    jamonDulce++;
+  }
+  if (input == "tomate") {
+    tomate++;
+  }
+}
+```
+**cook() function**; simulates the pizza cooking process. It checks if there are enough ingredients to make a pizza. If there's everything, it prints a message, updates ingredient quantities, and prints the available ingredients.
+```C++
+void cook() {
+  Serial.println("We are cooking Jessie");
+  if (queso >= 2 && masaPizza >= 1 && tomate >= 0.5 && jamonDulce >= 1 && oil) {
+    Serial.println("You have a Pizza");
+    queso -= 2;
+    masaPizza--;
+    tomate -= 0.5;
+    jamonDulce--;
+  } else if (input == "show") {
+    Serial.println("These are the ingredients that we have");
+    Serial.print(masaPizza);
+    Serial.println(" masaPizza");
+    Serial.print(queso);
+    Serial.println(" queso");
+    Serial.print(tomate);
+    Serial.println(" tomate");
+    Serial.print(jamonDulce);
+    Serial.println(" jamonDulce");
+
+    if (oil) {
+      Serial.println("We have oil");
+    } else {
+      Serial.println("We don't have oil");
+    }
+  }
+}
+```
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/cooking_system_4.ino)
 
 ---
