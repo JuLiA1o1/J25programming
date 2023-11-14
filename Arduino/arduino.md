@@ -352,7 +352,106 @@ Helper functions morseDot() and morseDash() handle the LED on-off sequences for 
 ---
 ## Functional programming 3 ##
 
+This Arduino sketch continues the theme of displaying Morse code using the built-in LED. 
+The code has been modified to use a function called morseBlink for both dots and dashes.
+Each letter is represented by a sequence of dots and dashes, with appropriate gaps between them.
 
+**int dotDuration = 500**; This line declares a variable dotDuration and sets it to 500 milliseconds. This variable determines the duration of a "dot" in Morse code.
+
+**pinMode(13, OUTPUT);** In the setup() function, it sets pin 13 as an output. This is often the built-in LED on many Arduino boards.
+
+**void loop():** This is the main part of the program that runs repeatedly. It calls functions to represent each letter in Morse code and introduces a gap between words.
+
+**void morseBlink(int numberofdots)**; This is a generic function that represents a dot or dash in Morse code. It takes the number of dots as an argument, allowing it to represent both dots and dashes. It turns the LED on for a specified duration, then turns it off to create the blinking effect.
+
+**Individual Letter Functions (morseJ(), morseU()...);** Each function represents the Morse code for a specific letter by calling the more generic morseBlink function with different characters.
+
+**Example**(morseJ()):
+This function represents the letter "J" in Morse code, which is dot-dash-dash-dash, followed by a gap between letters
+
+```C++
+// morseBlink(1) = dot ( 1 blink )
+// morseBlink(3) = dash ( 3 blinks )
+```
+```C++
+void morseJ() {
+  morseBlink(1);
+  morseBlink(3);
+  morseBlink(3);
+  morseBlink(3);
+  delay(dotDuration * 2);  // Gap between letters
+}
+```
+
+```C++
+int dotDuration = 500;  // Duration of a dot in milliseconds
+
+void setup() {
+  pinMode(13, OUTPUT);  // Set pin 13 (usually the built-in LED) as an output
+}
+
+void loop() {
+  morseJ();  // Represent the letter J in Morse code
+  morseU();  // Represent the letter U in Morse code
+  morseL();  // Represent the letter L in Morse code
+  morseI();  // Represent the letter I in Morse code
+  morseA();  // Represent the letter A in Morse code
+  
+  delay(dotDuration * 4);  // Gap between words
+}
+
+// Function to represent Morse code for the letter J
+void morseJ() { // no need to writte the delays between dot and dashes because is already pointed on the void morseBlink
+  morseBlink(1);
+  morseBlink(3);
+  morseBlink(3);
+  morseBlink(3);
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter U
+void morseU() {
+  morseBlink(1);
+  morseBlink(1);
+  morseBlink(3);
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter L
+void morseL() {
+  morseBlink(1);
+  morseBlink(3);
+  morseBlink(1);
+  morseBlink(1);
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter I
+void morseI() {
+  morseBlink(1);
+  morseBlink(1);
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent Morse code for the letter A
+void morseA() {
+  morseBlink(1);
+  morseBlink(3);
+  delay(dotDuration * 2);  // Gap between letters
+}
+
+// Function to represent a dot or dash in Morse code
+void morseBlink(int numberofdots) {
+  digitalWrite(13, 1);  // LED on (dot or dash)
+  delay(dotDuration * numberofdots);
+  digitalWrite(13, 0);  // LED off
+  delay(dotDuration);
+}
+
+```
+
+
+In this version, morseBlink is a versatile function that takes the number of dots as the main thing, allowing it to represent both dots and dashes. The loop function then calls this function for each letter, creating the Morse code with appropriate gaps. This modification makes the code more easier to understand.
 
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/functional_programing_3.ino)
 
