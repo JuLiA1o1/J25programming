@@ -539,10 +539,100 @@ So I decided to deleated and even the space was 97% used as it wasn't full, it w
 
 ---
 ## Cooking system 1 ##
+
+**setup() function**; is a standard Arduino function that is called once when the Arduino is powered up or reset.
+```C++
+void setup() {
+  Serial.begin(9600);  // Initialize serial communication at 9600
+}
+```
+**loop() function**; is called repeatedly after the setup() function. In this loop:
+- It reads a string from the serial port using the **readSerialString() function**.
+- If the input is not an empty string, it prints a message to the serial monitor and calls the **decide() function** with the input.
+```C++
+void loop() {
+  String input = Serial.readString();  // Read input from the serial communication
+  if (input != "") {  // Check if there is any input
+    Serial.println("You have input: " + input);  // Print the received input
+    decide(input);  // Call the decide function to take action based on input
+  }
+}
+```
+**decide() function**; takes a string as input and checks if it is equal to "cook". If it is, it calls the **cook() function**.
+```C++
+void decide(String input) {
+  if (input == "cook\n") {  // Check if the input is "cook" followed by a newline character
+    cook();  // If yes, call the cook function
+  }
+}
+```
+**cook() function**; simply prints a message to the serial monitor saying "We are cooking."
+
+```C++
+void cook() {
+  Serial.println("We are cooking");  // Print a message indicating that cooking is happening
+}
+
+```
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/cooking_system_1.ino)
 
 ---
 ## Cooking system 2 ##
+**Cooking system 2** is an extension of the previous example. Ther's added variables like eggs, potato, oil, and onion to represent ingredients. The **cook() function** has been modified to simulate cooking a Spanish Omelette based on the ingredients. 
+
+These are the ingredients needed to cook the spanish ommelet with the diferent quantities. eggs, potato, and onion are used to count the number of each ingredient. Oil is a boolean indicating whether oil is present.
+```C++
+int eggs = 4;
+int potato = 0;
+bool oil = true;
+double onion = 1;
+```
+**setup() function**; initializes serial communication
+```C++
+void setup() {
+  Serial.begin(9600);
+}
+```
+
+**loop() function**; continuously reads input, prints it to the serial monitor and then calls the decide() function.
+```C++
+void loop() {
+  String input = Serial.readString();
+  if (input != "") {
+    Serial.println("You have input: " + input);
+    input.trim();
+    decide(input);
+  }
+}
+```
+**cook() function**; checks if there are enough ingredients (eggs, potato, onion, and oil) to make a Spanish Omelette. If conditions are met, it prints a message and updates the quantities of ingredients.
+
+```C++
+void cook() {
+  Serial.println("We are cooking");
+  if (eggs >= 2 && potato == 1 && onion >= 0.25 && oil) { // if there's more or 2 eggs, 1 potato, more or 1/4 onion and oil...
+    Serial.println("You have a Spanish Omelette"); // you have a spanish omelette
+// all ingredients needed for the ommelet are used that's why the operations below
+  eggs = eggs - 2;
+    potato--;
+    onion = onion - 0.25;
+  }
+}
+```
+
+**decide() function**; takes the input and decides whether to call the **cook() function** or increment the **potato variable** based on the input.
+```C++
+void decide(String input) { // decide which input it's going to work
+  if (input == "cook") {
+    cook(); // cook the omelette
+  }
+  if (input == "potato") {
+    potato++; // extra potato
+  }
+}
+```
+
 [link](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/cooking_system_2.ino)
 
 ---
