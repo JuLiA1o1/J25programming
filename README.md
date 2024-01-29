@@ -9,6 +9,7 @@ repository 1st BATXILLERATO
 
 ### Programming
 [notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
+[notes 2](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
 
 ### 👥 teacher repository
 - [d-prieto](https://github.com/d-prieto/J25-Programming)
