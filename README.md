@@ -7,6 +7,12 @@ repository 1st BATXILLERATO
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino)
 - [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/arduino.md)
 
+### Arduino 2
+- [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202)
+- [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?both)
+- [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
+- [explanations]()
+
 ### Programming
 - [notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
 - [notes 2](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
