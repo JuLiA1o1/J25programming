@@ -9,15 +9,15 @@ repository 1st BATXILLERATO
 
 ### Arduino (second therm) 🤖
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202)
-- [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?both)
+- [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?view)
 - [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://hackmd.io/QqFHOIArTtWAYT6pJxMDxQ?view)
   ##### Project
 - [project](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202/PROJECT)
-- [explanations]() 
+- [explanations](https://hackmd.io/tjWXmJvLRH-o9r30Dv60bQ?view) 
 ### Programming
 - [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
-- [notes (second therm)]()
+- [notes (second therm)](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
   ##### exercices C++ 
 - [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
 
@@ -33,4 +33,4 @@ repository 1st BATXILLERATO
 - [axckzz](https://github.com/axckzz/J25-Progamming#j25-progamming)
 - [LuyiLin06](https://github.com/LuyiLin06/J25-programming)
 
-  [2](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
+
