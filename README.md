@@ -3,20 +3,20 @@ repository 1st BATXILLERATO
 ![the creation](https://www.algomasquearte.es/2436/miguel-angel-creaccion-adan-detalle-manos.jpg)
 
 
-### Arduino
+### Arduino (first therm) 🤖
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino)
 - [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/arduino.md)
 
-### Arduino 2
+### Arduino (second therm) 🤖
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202)
 - [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?both)
 - [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://hackmd.io/QqFHOIArTtWAYT6pJxMDxQ?view)
 
 ### Programming
-- [notes](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
-- [notes 2](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
-  ##### exercices C++
+- [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
+- [notes (second therm)](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
+  ##### exercices C++ 
 - [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
 
 ### 👥 teacher repository
