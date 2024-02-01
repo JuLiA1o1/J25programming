@@ -12,10 +12,12 @@ repository 1st BATXILLERATO
 - [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?both)
 - [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://hackmd.io/QqFHOIArTtWAYT6pJxMDxQ?view)
-
+  ##### Project
+[project]()
+[explanations]() 
 ### Programming
 - [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
-- [notes (second therm)](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
+- [notes (second therm)]()
   ##### exercices C++ 
 - [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
 
@@ -30,3 +32,5 @@ repository 1st BATXILLERATO
 - [QuimMontane](https://github.com/QuimMontane/J25-programmig-Quim)
 - [axckzz](https://github.com/axckzz/J25-Progamming#j25-progamming)
 - [LuyiLin06](https://github.com/LuyiLin06/J25-programming)
+
+  [2](https://hackmd.io/t28FN6-MQYaxhp18eENRkw)
