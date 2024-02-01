@@ -13,8 +13,8 @@ repository 1st BATXILLERATO
 - [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://hackmd.io/QqFHOIArTtWAYT6pJxMDxQ?view)
   ##### Project
-[project]()
-[explanations]() 
+- [project](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202/PROJECT)
+- [explanations]() 
 ### Programming
 - [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
 - [notes (second therm)]()
