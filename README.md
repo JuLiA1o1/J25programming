@@ -21,11 +21,11 @@ repository 1st BATXILLERATO
 ### Programming
 
  ##### notes
-- [first therm](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
-- [second therm](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
+- [first therm](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/notes%20(first%20therm).md)
+- [second therm](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/notes%20(second%20therm).md)
 - [third therm]()
   ##### exercices C++ 
-- [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
+- [defining functions](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/defining%20functions.md)
 
 ### 👥 teacher repository
 - [d-prieto](https://github.com/d-prieto/J25-Programming)
