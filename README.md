@@ -13,7 +13,7 @@ repository 1st BATXILLERATO
   ##### Project
 - [project](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202/PROJECT)
 - [explanations]
-- (https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/PROJECT/explanation.md)
+- [](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/PROJECT/explanation.md)
   
 ### Java (third therm) 🤖
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Java)
