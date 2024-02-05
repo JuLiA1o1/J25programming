@@ -22,7 +22,7 @@ repository 1st BATXILLERATO
 
 ### Programming
 
-  ##### notes
+ ##### notes
 - [first therm](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
 - [second therm](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
 - [third therm]()
