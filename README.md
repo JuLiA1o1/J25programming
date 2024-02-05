@@ -9,8 +9,6 @@ repository 1st BATXILLERATO
 
 ### Arduino (second therm) 🤖
 - [files](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202)
-- [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?view)
-- [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/explanation.md)
   ##### Project
 - [project](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202/PROJECT)
