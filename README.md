@@ -21,9 +21,11 @@ repository 1st BATXILLERATO
 - [explanations]()
 
 ### Programming
-- [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
-- [notes (second therm)](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
-- [notes (third therm)]()
+
+ ##### notes
+- [first therm](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
+- [second therm](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
+- [third therm]()
   ##### exercices C++ 
 - [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
 
