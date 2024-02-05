@@ -12,12 +12,18 @@ repository 1st BATXILLERATO
 - [DNI research](https://hackmd.io/atLj5kMKRSyfEnDSyBRZyA?view)
 - [Sonar (1,2,3,4)](https://hackmd.io/cjGNF7LOQsqj-j4Fuac9HA?view)
 - [explanations](https://hackmd.io/QqFHOIArTtWAYT6pJxMDxQ?view)
+
+### Java (third therm) 🤖
+- [files]()
+- [explanations]()
+
   ##### Project
 - [project](https://github.com/JuLiA1o1/J25programming/tree/main/Arduino%202/PROJECT)
 - [explanations](https://hackmd.io/tjWXmJvLRH-o9r30Dv60bQ?view) 
 ### Programming
 - [notes (first therm)](https://hackmd.io/Ctju0ghoSDGoaZFLl2wDEg?view)
 - [notes (second therm)](https://hackmd.io/t28FN6-MQYaxhp18eENRkw?view#/1)
+- [notes (third therm)]()
   ##### exercices C++ 
 - [defining functions](https://hackmd.io/M2EiOEEyTuS0wG-dJvqYvw)
 
