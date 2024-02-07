@@ -606,10 +606,10 @@ protocolo / dominio
 
 ---
 ## DEFINING FUNCTIONS (trucos)
-void = cuando no devuelve nada (no hay return)
-bool = siempre q hay return true or false
-int = return numbers
-double = resturn decimals
-string = dice string
+- void = cuando no devuelve nada (no hay return)
+- bool = siempre q hay return true or false
+- int = return numbers
+- double = resturn decimals
+- string = dice string
 
 que devuelve (variables dadas)
