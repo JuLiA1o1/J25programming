@@ -135,3 +135,4 @@ public class Main {
   }
 }
 ```
+``The product of all the numbers from 1 to 10 is: 3628800``
