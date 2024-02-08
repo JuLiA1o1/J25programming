@@ -613,3 +613,26 @@ protocolo / dominio
 - string = dice string
 
 que devuelve (variables dadas)
+
+ ## ⚠️ IMOPORTANT ⚠️
+ 
+ ### Functions
+- append(): This function appends a part of a string to another string.
+- assign():This function assigns a partial string.
+- at(): This function obtains the character stored at a specified location.
+- begin(): This function returns a reference to the start of the string.
+- capacity(): This function gives the total element that can be stored.
+- compare(): This function compares a string against the invoking string.
+- empty(): This function returns true if the string is empty.
+- end(): This function returns a reference to the end of the string.
+- erase(): This function removes characters as specified.
+- find(): This function searches for the occurrence of a specified substring.
+- length(): It gives the size of a string or the number of elements of a string.
+- swap(): This function swaps the given string with the invoking one.
+
+
+### Constructors
+- String(): This constructor is used for creating an empty string.
+- String(const char *str): This constructor is used for creating string objects from a null-terminated string.
+- String(const string *str): This constructor is used for creating a string object from another string object.
+
