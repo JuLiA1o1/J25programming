@@ -57,4 +57,29 @@ public class ThreeFiveSevenSum{  // Save as "OddEvenSum.java"
 ```
 ``The sum of the integers numbers from 1 to 1000 is 272066``
 
+RIGHT ANSWER
+```javascript=
+public class Main {
+  public static void main(String[] args) {
+     final int limiteInferior = 1;
+      final int limiteSuperior = 1000;
+      int sum  = 0;    // For accumulating odd numbers, init to 0
+ 
+      int number = limiteInferior;
+      while (number <= limiteSuperior) {
+      // divisible by 3, 5 or 7, but NOT by 15, 21, 35 or 105.
+		if ( (number % 3 == 0) || number % 5 == 0  || number % 7 == 0 )   {
+         if ( number % 15 != 0 && number % 21 != 0 && number % 35 != 0 && number % 105 != 0){ // tenia que poner "!=" porque sino no seria como lo que pide
+         	sum += number; // esta parte tenia que estar dentro del if
+         }
+        }
+        number++;  // Next number
+      } 
+      // Print the result
+      System.out.println("The sum of these numbers from " + limiteInferior + " to " + limiteSuperior + " is " + sum);
+ 
+   }
+}
+```
+
 2. Write a program called PrintLeapYears to print all the leap years between AD999 and AD2010. Also print the total number of leap years. (Hints: use a int variable called count, which is initialized to zero. Increment the count whenever a leap year is found.) 
