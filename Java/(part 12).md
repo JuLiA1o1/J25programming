@@ -58,6 +58,8 @@ public class ThreeFiveSevenSum{  // Save as "OddEvenSum.java"
 ``The sum of the integers numbers from 1 to 1000 is 272066``
 
 RIGHT ANSWER
+
+way 1:
 ```javascript=
 public class Main {
   public static void main(String[] args) {
@@ -82,7 +84,23 @@ public class Main {
 }
 ```
 ``The sum of the integers numbers from 1 to 1000 is 210453``
-
+way 2:
+```javascript=
+public class Main { 
+public static void main(String[] args) {
+int sum = 0;
+int n = 0;
+for (n = 1; n<=1000; n++){
+	if (n % 3 == 0 || n % 5 == 0 || n % 7 == 0){
+      if (n % 15 != 0 && n % 21 != 0 && n % 35 != 0 && n % 105 != 0){
+      	sum += n;
+      }
+    }
+}
+System.out.println( "The sum of the integers is " + sum);   
+}
+}
+````
 2. Write a program called PrintLeapYears to print all the leap years between AD999 and AD2010. Also print the total number of leap years. (Hints: use a int variable called count, which is initialized to zero. Increment the count whenever a leap year is found.)
 
 ```javascript=
