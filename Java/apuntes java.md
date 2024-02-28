@@ -1,6 +1,13 @@
 # JAVA
-[W3Schools (Java)](https://w3schools.com/java/tryjava.asp?filename=demo_output)
+
+INFORMATION SOURCES
+[java introduction](https://www3.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html)
+[OOP](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
+[W3School](https://www.w3schools.com/java/default.asp)
+[W3Schools (check program)](https://w3schools.com/java/tryjava.asp?filename=demo_output)
 ## VOCABULARY
+
+![image](https://www.greatschools.org/gk/wp-content/uploads/2023/03/Vocabulary-words-Spanish.jpg)
 - **statement** = (;)
  ```javascript
  EXAMPLE
@@ -47,6 +54,10 @@ Enfoque de desarrollo de software que utiliza objetos para modelar entidades del
 La modularidad en programación se refiere a la capacidad de dividir un programa en módulos independientes y autónomos, lo que facilita su comprensión, mantenimiento y reutilización.
 
 - **PC** = **P**ersonal **C**omputer
+- **GUI**: Graphic user interface
+- **CLI**: Interfaz de la línea de comandos
+- **OOP**: Object-oriented programming is about creating objects that contain both data and methods
+- **Final**: means that this value shall not be changed during execution.
 - **Abstraction** = NO fijarse en los detalles sino en el concepto general
 
 HIGH LEVEL = general abstraction
@@ -64,8 +75,8 @@ EXAMPLE
  - **imagen 3D** = creada por triangulitos
 
 ![3D](https://img2.rtve.es/im/6885386/?w=900)
-
-### first java program
+---
+### First java program
 ```javascript=
 /* 
  * First Java program, which says hello.
@@ -81,6 +92,7 @@ public class Hello {   // Save as "Hello.java"
 
 
 ### Simplification example
+![](https://www.shutterstock.com/image-vector/complex-simple-simplification-optimization-process-260nw-2039998430.jpg)
 ```java=
 
 System.out.println("The radius is " + radius + "The area is " + area + "The circumference is " + circumference);
@@ -165,5 +177,9 @@ statics= puedes llamarlos sin crear ninguna instancia extra
 - **pointer & null =**
 Variables don't hold "directly" the data that we're looking for. They have the ***address*** (**the pointer**) of where de data is. If there is **NO** ***address*** to any part of the virtual memory the value is **null**.
 
-**EXAM NOTES;**
-![Imatge de WhatsApp 2024-02-28 a les 11 10 49_6b252c5b](https://github.com/JuLiA1o1/J25programming/assets/144991153/43767532-9dca-405a-8c3a-944111212208)
+**EXAM NOTES**
+
+![i](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6VRZ-c8U501Nv7a6F8V8kEJT99mewP5Xr0tuZosVIyr0M7JntzY4t4Tz9926AqSglPLQ&usqp=CAU)
+
+![Imatge de WhatsApp 2024-02-28 a les 11.10.49_fcf32018](https://hackmd.io/_uploads/rkI6vFh2p.jpg)
+
