@@ -19,6 +19,9 @@ repository 1st BATXILLERATO
 - [explanations](https://github.com/JuLiA1o1/J25programming/blob/main/Java/explanations.md)
 - [notes java](https://github.com/JuLiA1o1/J25programming/blob/main/Java/apuntes%20java.md)
 
+### PC (third therm) 🤖
+- [files](https://github.com/JuLiA1o1/J25programming/tree/main/PC)
+- [notes](https://hackmd.io/JPIEOAyJRUuP860N1w-HUQ?view#HARDWARE-amp-SOFTWARE)
 ### Programming
 
  ##### notes
