@@ -27,7 +27,7 @@ repository 1st BATXILLERATO
  ##### notes
 - [first therm](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino/notes%20(first%20therm).md)
 - [second therm](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/notes%20(second%20therm).md)
-- [third therm]()
+- [third therm](https://github.com/JuLiA1o1/J25programming/blob/main/ThirdTerm_notes.md)
   ##### exercices C++ 
 - [defining functions](https://github.com/JuLiA1o1/J25programming/blob/main/Arduino%202/defining%20functions.md)
 
