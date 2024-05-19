@@ -1038,3 +1038,117 @@ dominio = IP(internal protocol adress)
 :::
 **Para traducir** 
 - dominios con **IP**(listado de dominios con sus IP) necesitan un **DNS** (domain name server)
+
+---
+### INTERNET vs WWW
+- **Internet** = red fisica de ordenadores conectados = ``hardware``
+        - wifi FOTO DIBUIX
+- **www** (world wide web) = recursos almacenados en internet = ``software & datos``
+
+    ![image](https://hackmd.io/_uploads/HJEMO4JXC.png)
+**ARQUITECTURA**
+    **servidor - cliente** (no solo en internet, aplicable en otras conecciones) = como se conectan + comunican entre maquinas
+    ``query = question``
+    
+    **PROTOCOLO** = reglas & convenciones en la comunicacion
+    - enlace
+    - pagina
+        - https:// ( hyper, text, transfer rpotocolo securety)
+    
+![image](https://hackmd.io/_uploads/HJPLuEJ7R.png)
+
+
+    
+**P2P** (peer to peer = puerto a puerto)
+    - descentralizada
+    
+![image](https://hackmd.io/_uploads/Hkacd4JXC.png)
+
+---
+    
+#### hardware de redes
+    - acces point = solo WIFI (extensor)
+    - switch = conectar por CABLE diferentes ordenadores (mayor estabilidad)
+   
+RJ45 ![image](https://hackmd.io/_uploads/HJsRcEymA.png)
+
+    - router = enrutar + puerta enlace entre redes 
+    
+wifi = senyal por aire
+
+**RECURSOS en INFORMATICA**
+    - procesado
+    - ancho de banda
+    - memoria
+    
+   **NAVEGADORES** 
+no dependen de chronium
+    - electron ( whatsapp)
+    - chrome
+    - edge
+    - opera
+
+**LLAVERO** (generador unico)
+    - aplicacion dedicada
+    - sincronizar
+    
+ **STATUS SILICON VALEY** (empresa inovadora de reciente creacion)  
+    . uber
+    . air BnB
+    . google
+    . open IA
+    
+    
+
+    enmierdacion = empiezan veindiendote la moto, producto super bueno calidad precio, luego bajan calidad producto o suben precios.
+    
+---
+### PAGINA WEB DINAMICA FUNCIONAMIENTO (se regenera automaticamente)
+**EJ**: youtube, (hacen html a tu gusto)
+![image](https://hackmd.io/_uploads/SJ2xfVm7A.png)
+
+**CGI** = otras aplicaciones que es lo que tiene que responder/devolver
+**BBDD** = base de datos
+**Full stack** = tanto front como back stage
+    - framwork
+    - desarrollador
+### PAGINA WEB ESTATICA FUNCIONAMIENTO 
+![image](https://hackmd.io/_uploads/rJWpZEXXA.png)
+
+    
+IT = informatica & telecomunicaciones
+### DESARROLLO & MANTENIMIENTO (software)
+**project manager** =se encarga de organizar el proceso para crear el programa
+**desarrollo web:**
+    - front end ( lo que ve le usuario)
+    - back end ( lo que no ve)
+    - full strack (todo)
+    
+    DESARROLLO WEB = Programador (pica codigo) = analista (revisa + diseña) = aruqitecto de software (traza lineas maestras)
+   -  arquitecto = decide trabajar con hardware pithon...
+    
+**QA** (quality assurance / departamento de calidad) = revisar el programa = decir si esta en el equilibrio o no ( si un personaje esta muy por encima de los otros no habra equilibrio, todos lo querran) 
+    - no tienen porque programar = programan para facilitarse la revision de los tests
+
+#### SISTEMAS
+**DBA** (data base admin / gente mantenimiento)
+- sysop (system operative) NO desarrollo SI sistema
+(dentro de BBDD (base de datos))
+    
+**persona sistemas**
+- despliegue (deploy)
+- redes
+- operadores = responsabilidad mas reducidas ( no contactar con las camaras de seguridad mientras que sistemas si)
+
+**3D**
+- modeladores
+- rigging (pone los esqueletos para diseñar)
+- VFX = efectos especiales (pequeñas animaciones/sonidos(ej. sonido monedas))
+    
+### ENTORNOS
+
+![image](https://hackmd.io/_uploads/ByZHlN77C.png)
+
+   **EJ** 
+![image](https://hackmd.io/_uploads/S1JSfN770.png)
+
