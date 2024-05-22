@@ -1081,7 +1081,10 @@ dominio = IP(internal protocol adress)
     - acces point = solo WIFI (extensor)
     - switch = conectar por CABLE diferentes ordenadores (mayor estabilidad)
 
-![Uploading image.png…]()
+![image](https://github.com/JuLiA1o1/J25programming/assets/144991153/2eeae3db-a259-4bd3-ad32-db9b6af94026)
+
+`` Phone < access point < switch < wiffi -or-
+Phone < switch < wiffi ``
 
 RJ45 ![image](https://hackmd.io/_uploads/HJsRcEymA.png)
 
