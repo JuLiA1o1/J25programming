@@ -866,8 +866,8 @@ identado los espacios antes de la line
 - texto identado
 - texto sin identar
 
-
  ![Imatge de WhatsApp 2024-05-06 a les 09.35.58_90477429](https://hackmd.io/_uploads/By4L0ZIMR.jpg)
+
 
 
 
@@ -1001,6 +1001,9 @@ My Bonnie lies over the ocean.
  :::info 
 diferencia= páginas web estáticas, que muestran el mismo contenido para todos los usuarios, las páginas web dinámicas pueden personalizarse y cambiar en tiempo real
 :::
+    
+--------
+    
 #### tipos archivo:
 1. HTML
     - marcado y texto
@@ -1008,7 +1011,7 @@ diferencia= páginas web estáticas, que muestran el mismo contenido para todos 
     - tiene tags
 2. CSS
     - cascade style sheet
-    - estilos (formado)
+    - estilos (formato)
 3. JavaScript
     - lenguaje de programacion 
     - Tiene bucles, objetos y funciones
@@ -1025,9 +1028,13 @@ JavaScript lenguaje bajamente tipado
     - peticiones / request (URL) unit resource location
     
     **ENLACE vs URL:**
-    - **enlace** puede poner pulsa aqui
-    - **URL** noel enlace te lleva al URL
+
+
+    - **enlace** puede poner "pulsa aqui"
+    - **URL** NO tiene lo de "pulsa aqui" porque el enlace te lleva al URL
     
+![image](https://hackmd.io/_uploads/S1XY6oiXA.png)
+
 :::warning
 URL
 ![MicrosoftTeams-image (1)](https://hackmd.io/_uploads/r1_ofecMA.jpg)
@@ -1038,15 +1045,19 @@ dominio = IP(internal protocol adress)
 :::
 **Para traducir** 
 - dominios con **IP**(listado de dominios con sus IP) necesitan un **DNS** (domain name server)
-
+    
 ---
 ### INTERNET vs WWW
+    ![image](https://hackmd.io/_uploads/HyDjnojmA.png)
+
 - **Internet** = red fisica de ordenadores conectados = ``hardware``
-        - wifi FOTO DIBUIX
+        - wifi 
 - **www** (world wide web) = recursos almacenados en internet = ``software & datos``
 
     ![image](https://hackmd.io/_uploads/HJEMO4JXC.png)
 **ARQUITECTURA**
+    ![image](https://hackmd.io/_uploads/S144nisQC.png)
+
     **servidor - cliente** (no solo en internet, aplicable en otras conecciones) = como se conectan + comunican entre maquinas
     ``query = question``
     
@@ -1066,7 +1077,7 @@ dominio = IP(internal protocol adress)
 
 ---
     
-#### hardware de redes
+### hardware de redes
     - acces point = solo WIFI (extensor)
     - switch = conectar por CABLE diferentes ordenadores (mayor estabilidad)
    
@@ -1074,14 +1085,16 @@ RJ45 ![image](https://hackmd.io/_uploads/HJsRcEymA.png)
 
     - router = enrutar + puerta enlace entre redes 
     
-wifi = senyal por aire
+**wifi** = senyal por aire
 
 **RECURSOS en INFORMATICA**
     - procesado
     - ancho de banda
     - memoria
     
-   **NAVEGADORES** 
+   **NAVEGADORES**
+    ![image](https://hackmd.io/_uploads/B1ZAijsmC.png)
+
 no dependen de chronium
     - electron ( whatsapp)
     - chrome
@@ -1089,10 +1102,14 @@ no dependen de chronium
     - opera
 
 **LLAVERO** (generador unico)
+    ![image](https://hackmd.io/_uploads/HycKisoXA.png)
+
     - aplicacion dedicada
     - sincronizar
     
  **STATUS SILICON VALEY** (empresa inovadora de reciente creacion)  
+    ![image](https://hackmd.io/_uploads/SJqrsjjQR.png)
+
     . uber
     . air BnB
     . google
@@ -1100,7 +1117,7 @@ no dependen de chronium
     
     
 
-    enmierdacion = empiezan veindiendote la moto, producto super bueno calidad precio, luego bajan calidad producto o suben precios.
+    enmiendacion = empiezan veindiendote la moto, producto super bueno calidad precio, luego bajan calidad del producto o suben precios.
     
 ---
 ### PAGINA WEB DINAMICA FUNCIONAMIENTO (se regenera automaticamente)
@@ -1112,43 +1129,64 @@ no dependen de chronium
 **Full stack** = tanto front como back stage
     - framwork
     - desarrollador
+    
+![image](https://hackmd.io/_uploads/BkEecojmA.png)
+
 ### PAGINA WEB ESTATICA FUNCIONAMIENTO 
 ![image](https://hackmd.io/_uploads/rJWpZEXXA.png)
 
     
-IT = informatica & telecomunicaciones
+**IT** = informatica & telecomunicaciones
+    
+------
+    
 ### DESARROLLO & MANTENIMIENTO (software)
 **project manager** =se encarga de organizar el proceso para crear el programa
 **desarrollo web:**
     - front end ( lo que ve le usuario)
     - back end ( lo que no ve)
     - full strack (todo)
+
+ ----  
+
+    
+![image](https://hackmd.io/_uploads/rJAtKos70.png)
+
+ 
+    -------
     
     DESARROLLO WEB = Programador (pica codigo) = analista (revisa + diseña) = aruqitecto de software (traza lineas maestras)
    -  arquitecto = decide trabajar con hardware pithon...
     
 **QA** (quality assurance / departamento de calidad) = revisar el programa = decir si esta en el equilibrio o no ( si un personaje esta muy por encima de los otros no habra equilibrio, todos lo querran) 
     - no tienen porque programar = programan para facilitarse la revision de los tests
+    
+----
 
-#### SISTEMAS
+
+### SISTEMAS
+![image](https://hackmd.io/_uploads/H1xsdijXA.png)
+
 **DBA** (data base admin / gente mantenimiento)
 - sysop (system operative) NO desarrollo SI sistema
 (dentro de BBDD (base de datos))
     
 **persona sistemas**
-- despliegue (deploy)
-- redes
+- despliegue (deploy) = instala/actualiza software
+- redes = organiza las redes (hardware)
 - operadores = responsabilidad mas reducidas ( no contactar con las camaras de seguridad mientras que sistemas si)
 
 **3D**
-- modeladores
+    ![image](https://hackmd.io/_uploads/ryvrOjomR.png)
+
+- modeladores (crean el modelo)
 - rigging (pone los esqueletos para diseñar)
 - VFX = efectos especiales (pequeñas animaciones/sonidos(ej. sonido monedas))
-    
+   
+    -------
 ### ENTORNOS
 
 ![image](https://hackmd.io/_uploads/ByZHlN77C.png)
 
    **EJ** 
 ![image](https://hackmd.io/_uploads/S1JSfN770.png)
-
