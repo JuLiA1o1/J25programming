@@ -1080,7 +1080,9 @@ dominio = IP(internal protocol adress)
 ### hardware de redes
     - acces point = solo WIFI (extensor)
     - switch = conectar por CABLE diferentes ordenadores (mayor estabilidad)
-   
+
+![Uploading image.png…]()
+
 RJ45 ![image](https://hackmd.io/_uploads/HJsRcEymA.png)
 
     - router = enrutar + puerta enlace entre redes 
